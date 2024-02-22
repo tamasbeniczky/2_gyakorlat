@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_gyakorlat", "2_gyakorlat\2_gyakorlat.csproj", "{F76EC466-CBE0-4FE1-BF17-62233A8C6886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form2", "form2\form2.csproj", "{746C31E3-0089-44C7-B972-A477DACA21EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F76EC466-CBE0-4FE1-BF17-62233A8C6886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76EC466-CBE0-4FE1-BF17-62233A8C6886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76EC466-CBE0-4FE1-BF17-62233A8C6886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76EC466-CBE0-4FE1-BF17-62233A8C6886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746C31E3-0089-44C7-B972-A477DACA21EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746C31E3-0089-44C7-B972-A477DACA21EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746C31E3-0089-44C7-B972-A477DACA21EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746C31E3-0089-44C7-B972-A477DACA21EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5521D28-ACFA-41BB-A060-7BF918C3988D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+namespace _2_gyakorlat
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            for (int sor = 0; sor < 10; sor++)
+            {
+                for (int oszlop = 0; oszlop < 10; oszlop++)
+                {
+                    Button button = new Button();
+                    button.Text = (sor * oszlop).ToString();
+                    button.Top = sor * 48;
+                    button.Left = oszlop * 48;
+                    button.Height = 48;
+                    button.Width = 48;
+                    Controls.Add(button);
+                }
+            }
+        }
+    }
+}
